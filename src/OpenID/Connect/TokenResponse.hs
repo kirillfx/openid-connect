@@ -45,7 +45,7 @@ data TokenResponse a = TokenResponse
     -- ^ The type of the token issued as described in Section 7.1.
     -- Value is case insensitive.
 
-  , expiresIn :: Maybe Int
+  , expiresIn :: Maybe Text
     -- ^ The lifetime in seconds of the access token.
 
   , refreshToken :: Maybe Text
